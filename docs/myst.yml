@@ -23,4 +23,4 @@ site:
     logo_text: Río Magdalena - EDA
     hide_footer_links: false
     hide_outline: true
-    outline_maxdepth: 5
+    outline_maxdepth: 2
