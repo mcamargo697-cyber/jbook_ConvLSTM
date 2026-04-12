@@ -19,6 +19,7 @@ project:
 site:
   template: book-theme
   options:
+    logo: images/logo.png
     logo_text: Río Magdalena - EDA
     hide_footer_links: false
     hide_outline: true
