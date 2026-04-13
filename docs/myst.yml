@@ -28,3 +28,4 @@ site:
     hide_footer_links: false
     hide_outline: true
     outline_maxdepth: 2
+    style: ./_static/custom.css
