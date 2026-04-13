@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 086a3e50-16b5-45af-a37c-f2bd8b8e9c8e
-  title: Análisis exploratorio de datos de nivel en el Río Magdalena
+  title: Nivel del Río Magdalena
   description: Visualización y exploración básica de series temporales de nivel.
   # description:
   # keywords: []
