@@ -15,9 +15,9 @@ project:
     #file: markdown.md
     #file: markdown-notebooks.md
     - file: 1_GraficasDatos.ipynb
-      Title: Gráficas de series de tiempo de Nivel
+      #Title: Gráficas de series de tiempo de Nivel
     - file: 2_CorrelacionCruzada.ipynb
-      Title: Correlación cruzada entre estaciones
+      #Title: Correlación cruzada entre estaciones
     
 site:
   template: book-theme
