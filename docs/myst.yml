@@ -20,6 +20,7 @@ project:
       #Title: Correlación cruzada entre estaciones
     - file: 3_Exploracion.ipynb
     - file: 4_AnalisisBasico.ipynb
+    - file: 5_EstructuraTemporal.ipynb
     
 site:
   template: book-theme
