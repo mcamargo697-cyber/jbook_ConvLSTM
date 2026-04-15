@@ -24,9 +24,9 @@ table.dataframe,
 
 /* ===== Hacer más angosta la columna derecha de CONTENTS ===== */
 aside:last-of-type {
-  width: 180px !important;
-  min-width: 180px !important;
-  max-width: 180px !important;
+  width: 160px !important;
+  min-width: 160px !important;
+  max-width: 160px !important;
 }
 
 /* ===== Dar más espacio al contenido principal ===== */
