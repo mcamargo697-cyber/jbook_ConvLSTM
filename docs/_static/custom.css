@@ -21,3 +21,21 @@ table.dataframe,
   display: inline-table !important;
 }
 
+
+/* ===== Hacer más angosta la columna derecha de CONTENTS ===== */
+aside:last-of-type {
+  width: 180px !important;
+  min-width: 180px !important;
+  max-width: 180px !important;
+}
+
+/* ===== Dar más espacio al contenido principal ===== */
+main {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+article {
+  max-width: none !important;
+  width: 100% !important;
+}
