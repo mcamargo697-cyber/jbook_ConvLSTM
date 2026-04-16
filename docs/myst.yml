@@ -23,6 +23,7 @@ project:
     - file: 5_EstructuraTemporal.ipynb
     - file: 6_Imputacion_datos.ipynb
     - file: 7_ModeloSVR.ipynb
+    - file: 8_ModeloRIDGE.ipynb
 site:
   template: book-theme
   options:
