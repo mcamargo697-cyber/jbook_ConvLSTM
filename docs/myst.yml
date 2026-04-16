@@ -22,7 +22,7 @@ project:
     - file: 4_AnalisisBasico.ipynb
     - file: 5_EstructuraTemporal.ipynb
     - file: 6_imputacion_datos.ipynb
-    
+    - file: 7_ModeloSVR.ipynb
 site:
   template: book-theme
   options:
