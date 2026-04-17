@@ -28,12 +28,12 @@ jobs:
 
       - name: Build site
         run: |
-          myst build docs
+          myst build 
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/_build/html
+          path: _build/html
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
