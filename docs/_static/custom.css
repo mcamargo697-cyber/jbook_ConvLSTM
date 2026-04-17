@@ -21,21 +21,65 @@ table.dataframe,
   display: inline-table !important;
 }
 
-
-/* ===== Hacer más angosta la columna derecha de CONTENTS ===== */
-aside:last-of-type {
-  width: 160px !important;
-  min-width: 160px !important;
-  max-width: 160px !important;
+/* Panel derecho: texto un poco más legible */
+.myst-outline-header {
+  font-size: 1rem !important;
 }
 
-/* ===== Dar más espacio al contenido principal ===== */
-main {
-  max-width: none !important;
-  width: 100% !important;
+.myst-outline-list,
+.myst-outline-item,
+.myst-outline-item a {
+  font-size: 1.05rem !important;
+  line-height: 1.4 !important;
 }
 
-article {
-  max-width: none !important;
-  width: 100% !important;
+/* Panel izquierdo: texto un poco más legible */
+.myst-primary-sidebar a.myst-toc-item {
+  font-size: 1.08rem !important;
+  line-height: 1.35 !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.myst-primary-sidebar .break-words {
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+@media (min-width: 1280px) {
+  .myst-primary-sidebar {
+    transform: translateY(20px) !important;
+  }
+}
+
+/* Barra superior: solo un poco más alta */
+.myst-top-nav {
+  min-height: 90px !important;
+  height: 100px !important;
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+  padding-left: 0.8rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.myst-top-nav > div,
+.myst-top-nav > * {
+  justify-content: flex-start !important;
+  margin-left: 0 !important;
+}
+
+/* Logo: tal cual lo tenías */
+.myst-top-nav img {
+  max-height: 200px !important;
+  height: auto !important;
+  width: auto !important;
+}
+
+/* Figuras e imágenes: que no se desborden */
+figure,
+img {
+  max-width: 100% !important;
 }
