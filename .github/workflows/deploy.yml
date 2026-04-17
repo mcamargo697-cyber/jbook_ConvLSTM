@@ -1,4 +1,4 @@
-name: Deploy Jupyter Book to GitHub Pages
+name: Deploy MyST site
 
 on:
   push:
@@ -9,49 +9,31 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
 
-    env:
-      BASE_URL: /${{ github.event.repository.name }}
-
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: "3.11"
 
-      - name: Install Jupyter Book
-        run: pip install jupyter-book
+      - name: Install MyST
+        run: |
+          pip install mystmd
 
-      - name: Build HTML
-        working-directory: docs
-        run: jupyter-book build --html
+      - name: Build site
+        run: |
+          myst build docs
 
-      - name: Upload Pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/_build/html
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
