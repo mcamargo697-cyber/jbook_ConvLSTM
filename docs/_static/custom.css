@@ -86,23 +86,23 @@ img {
 
 /* Markdown general */
 .jp-RenderedHTMLCommon {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* Párrafos */
 .jp-RenderedHTMLCommon p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /* Títulos */
 .jp-RenderedHTMLCommon h1 {
-    font-size: 28px;
-}
-
-.jp-RenderedHTMLCommon h2 {
     font-size: 24px;
 }
 
+.jp-RenderedHTMLCommon h2 {
+    font-size: 22px;
+}
+
 .jp-RenderedHTMLCommon h3 {
-    font-size: 20px;
+    font-size: 18px;
 }
