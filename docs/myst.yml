@@ -8,8 +8,7 @@ project:
     - file: intro.md
     - file: 1_malla_interpolacion.ipynb
     - file: 2_teselas.ipynb
-    - file: 3_formacion_muestras.md
-    - file: 4_arquitectura_red.md
+
 
 site:
   title: Pronóstico Batimétrico ConvLSTM
