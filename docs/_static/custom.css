@@ -142,7 +142,7 @@ body::before {
   background-position: center;
   background-size: 40%;
 
-  opacity: 0.08;
+  opacity: 0.5;
   z-index: -1;
   pointer-events: none;
 }
