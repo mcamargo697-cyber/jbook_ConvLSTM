@@ -83,3 +83,26 @@ figure,
 img {
   max-width: 100% !important;
 }
+
+/* Markdown general */
+.jp-RenderedHTMLCommon {
+    font-size: 16px;
+}
+
+/* Párrafos */
+.jp-RenderedHTMLCommon p {
+    font-size: 16px;
+}
+
+/* Títulos */
+.jp-RenderedHTMLCommon h1 {
+    font-size: 28px;
+}
+
+.jp-RenderedHTMLCommon h2 {
+    font-size: 24px;
+}
+
+.jp-RenderedHTMLCommon h3 {
+    font-size: 20px;
+}
