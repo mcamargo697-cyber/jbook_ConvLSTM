@@ -84,25 +84,29 @@ img {
   max-width: 100% !important;
 }
 
-/* Markdown general */
-.jp-RenderedHTMLCommon {
-    font-size: 14px;
+/* Markdown general del sitio MyST */
+main {
+  font-size: 18px !important;
+  line-height: 1.65 !important;
 }
 
-/* Párrafos */
-.jp-RenderedHTMLCommon p {
-    font-size: 14px;
+main p,
+main li {
+  font-size: 1rem !important;
 }
 
-/* Títulos */
-.jp-RenderedHTMLCommon h1 {
-    font-size: 18px;
+main h1 {
+  font-size: 2rem !important;
 }
 
-.jp-RenderedHTMLCommon h2 {
-    font-size: 18px;
+main h2 {
+  font-size: 1.6rem !important;
 }
 
-.jp-RenderedHTMLCommon h3 {
-    font-size: 18px;
+main h3 {
+  font-size: 1.3rem !important;
+}
+
+main h4 {
+  font-size: 1.15rem !important;
 }
