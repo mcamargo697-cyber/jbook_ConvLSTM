@@ -92,7 +92,7 @@ main .prose,
 main .content,
 main section {
   font-size: 15px !important;
-  line-height: 1.4 !important;
+  line-height: 1.5 !important;
 }
 
 /* Párrafos y listas */
@@ -103,7 +103,7 @@ main article li,
 main .prose p,
 main .prose li {
   font-size: 15px !important;
-  line-height: 1.4 !important;
+  line-height: 1.5 !important;
 }
 
 /* Títulos */
