@@ -1,0 +1,24 @@
+version: 1
+
+project:
+  title: Pronóstico Batimétrico con ConvLSTM
+  description: Avance del desarrollo de un modelo de predicción batimétrica usando redes neuronales
+
+  toc:
+    - file: intro.md
+    - file: 1_malla_interpolacion.ipynb
+    - file: 2_teselas.ipynb
+    - file: 3_formarMuestras.ipynb
+
+
+site:
+  title: Pronóstico Batimétrico ConvLSTM
+  template: book-theme
+  options:
+    logo: images/logo.png
+    hide_footer_links: false
+    hide_outline: false
+    outline_maxdepth: 3
+    style: ./_static/custom.css
+
+

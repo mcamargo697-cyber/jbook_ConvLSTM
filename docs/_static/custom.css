@@ -1,0 +1,154 @@
+table,
+table.dataframe,
+.dataframe,
+.jp-RenderedHTMLCommon table,
+.cell_output table,
+.jp-OutputArea-output table {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: auto !important;
+}
+
+.cell_output,
+.jp-OutputArea-output,
+.jp-RenderedHTMLCommon {
+  text-align: center !important;
+}
+
+.cell_output table,
+.jp-OutputArea-output table,
+.jp-RenderedHTMLCommon table {
+  display: inline-table !important;
+}
+
+/* Panel derecho: texto un poco más legible */
+.myst-outline-header {
+  font-size: 1rem !important;
+}
+
+.myst-outline-list,
+.myst-outline-item,
+.myst-outline-item a {
+  font-size: 1.05rem !important;
+  line-height: 1.4 !important;
+}
+
+/* Panel izquierdo: texto un poco más legible */
+.myst-primary-sidebar a.myst-toc-item {
+  font-size: 1.08rem !important;
+  line-height: 1.35 !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.myst-primary-sidebar .break-words {
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+@media (min-width: 1280px) {
+  .myst-primary-sidebar {
+    transform: translateY(20px) !important;
+  }
+}
+
+/* Barra superior: solo un poco más alta */
+.myst-top-nav {
+  min-height: 90px !important;
+  height: 100px !important;
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
+  padding-left: 0.8rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.myst-top-nav > div,
+.myst-top-nav > * {
+  justify-content: flex-start !important;
+  margin-left: 0 !important;
+}
+
+/* Logo: tal cual lo tenías */
+.myst-top-nav img {
+  max-height: 200px !important;
+  height: auto !important;
+  width: auto !important;
+}
+
+/* Figuras e imágenes: que no se desborden */
+figure,
+img {
+  max-width: 100% !important;
+}
+
+
+/* Contenido principal del documento */
+main,
+main article,
+main .prose,
+main .content,
+main section {
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+}
+
+/* Párrafos y listas */
+main p,
+main li,
+main article p,
+main article li,
+main .prose p,
+main .prose li {
+  font-size: 15px !important;
+  line-height: 1.5 !important;
+}
+
+/* Títulos */
+main h1,
+main article h1,
+main .prose h1 {
+  font-size: 1.8rem !important;
+}
+
+main h2,
+main article h2,
+main .prose h2 {
+  font-size: 1.5rem !important;
+}
+
+main h3,
+main article h3,
+main .prose h3 {
+  font-size: 1.2rem !important;
+}
+
+main h4,
+main article h4,
+main .prose h4 {
+  font-size: 1rem !important;
+}
+
+ 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background-image: url("../images/EscudoFondo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+
+  opacity: 0.5;
+  z-index: -1;
+  pointer-events: none;
+}
+
+main, header, footer {
+  position: relative;
+  z-index: 1;
+}
+
