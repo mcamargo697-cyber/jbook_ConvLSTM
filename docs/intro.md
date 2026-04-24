@@ -18,5 +18,4 @@ Hasta el momento se ha trabajado en las siguientes etapas:
 1. Construcción de la malla e interpolación
 2. Generación de teselas
 3. Formación de muestras
-4. Definición de la arquitectura de red
-5. Testeo inicial con un solo pliegue
+4. Definición de la arquitectura de red y testeo inicial con un solo pliegue
